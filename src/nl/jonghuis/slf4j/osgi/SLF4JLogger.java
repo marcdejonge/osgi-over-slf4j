@@ -13,7 +13,7 @@ import aQute.bnd.annotation.component.Reference;
 
 @Component(immediate = true, provide = {})
 public class SLF4JLogger implements LogListener {
-	private final Logger	logger	= LoggerFactory.getLogger("osgi.core");
+	private final Logger	logger	= LoggerFactory.getLogger("org.osgi.framework");
 
 	@Reference(dynamic = true, multiple = true)
 	public void addLogReader(LogReaderService lrs) {

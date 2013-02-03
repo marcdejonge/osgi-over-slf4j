@@ -5,3 +5,4 @@
 	biz.aQute.bnd.annotation;version="[1.43.0,2)"
 Bundle-Version: 1.0.0
 Private-Package: nl.jonghuis.slf4j.osgi
+Service-Component: nl.jonghuis.slf4j.osgi.*
