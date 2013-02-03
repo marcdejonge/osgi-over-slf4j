@@ -1,0 +1,7 @@
+-buildpath: \
+	slf4j.api;version="[1.6,2)",\
+	osgi.core;version="[4.2.0,5)",\
+	osgi.cmpn;version="[4.2.0,5)",\
+	biz.aQute.bnd.annotation;version="[1.43.0,2)"
+Bundle-Version: 1.0.0
+Private-Package: nl.jonghuis.slf4j.osgi
